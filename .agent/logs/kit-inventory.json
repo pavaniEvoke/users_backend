@@ -1,0 +1,293 @@
+{
+  "v": 1,
+  "generated_at": "2026-09-15T14:57:08.787Z",
+  "provider": "claude-code",
+  "roots": {
+    "skills": ".claude/skills/",
+    "hooks": ".claude/hooks/",
+    "agents": ".claude/agents/"
+  },
+  "skills": [
+    {
+      "id": "brand-guidelines",
+      "name": "Brand Guidelines Skill",
+      "path": ".claude/skills/brand-guidelines/SKILL.md",
+      "kind": "skill"
+    },
+    {
+      "id": "code-reviewer",
+      "name": "Code Reviewer Skill",
+      "path": ".claude/skills/code-reviewer/SKILL.md",
+      "kind": "skill"
+    },
+    {
+      "id": "dependency-audit",
+      "name": "Dependency Audit Skill",
+      "path": ".claude/skills/dependency-audit/SKILL.md",
+      "kind": "skill"
+    },
+    {
+      "id": "documentation",
+      "name": "Documentation Skill",
+      "path": ".claude/skills/documentation/SKILL.md",
+      "kind": "skill"
+    },
+    {
+      "id": "performance-profiler",
+      "name": "Performance Profiler Skill",
+      "path": ".claude/skills/performance-profiler/SKILL.md",
+      "kind": "skill"
+    },
+    {
+      "id": "pr-governance-gate",
+      "name": "PR Governance Gate Skill",
+      "path": ".claude/skills/pr-governance-gate/SKILL.md",
+      "kind": "skill"
+    },
+    {
+      "id": "spec-driven-builder",
+      "name": "Spec-Driven Builder Skill",
+      "path": ".claude/skills/spec-driven-builder/SKILL.md",
+      "kind": "skill"
+    },
+    {
+      "id": "greenfield-starter",
+      "name": "Greenfield starter playbook",
+      "path": ".claude/skills/greenfield-starter/SKILL.md",
+      "kind": "skill"
+    }
+  ],
+  "hooks": [
+    {
+      "id": "evoke-trace",
+      "name": "Evoke audit trail (evoke_trace.py)",
+      "event": "PostToolUse|SessionStart|SessionEnd",
+      "kind": "observability",
+      "path": ".claude/hooks/evoke_trace.py"
+    },
+    {
+      "id": "evoke-trace-sh",
+      "name": "Evoke audit trail launcher",
+      "event": "PostToolUse|SessionStart|SessionEnd",
+      "kind": "observability",
+      "path": ".claude/hooks/evoke-trace.sh"
+    },
+    {
+      "id": "kit-inventory",
+      "name": "Kit inventory scanner",
+      "event": "SessionStart",
+      "kind": "observability",
+      "path": ".claude/hooks/kit_inventory.py"
+    },
+    {
+      "id": "block-destructive-fs",
+      "name": "Block destructive folder deletes",
+      "event": "PreToolUse",
+      "kind": "guardrail",
+      "path": ".claude/hooks/block-destructive-fs.sh"
+    },
+    {
+      "id": "block-destructive-sql",
+      "name": "Block dropping / truncating tables",
+      "event": "PreToolUse",
+      "kind": "guardrail",
+      "path": ".claude/hooks/block-destructive-sql.sh"
+    },
+    {
+      "id": "block-force-push",
+      "name": "Block force-push to shared history",
+      "event": "PreToolUse",
+      "kind": "guardrail",
+      "path": ".claude/hooks/block-force-push.sh"
+    }
+  ],
+  "rules": [
+    {
+      "id": "api-design",
+      "name": "API design guidelines",
+      "path": ".claude/skills/api-design-rules/SKILL.md",
+      "kind": "rule"
+    },
+    {
+      "id": "engineering-baseline",
+      "name": "Engineering baseline",
+      "path": "CLAUDE.md",
+      "kind": "rule"
+    },
+    {
+      "id": "exception-handling",
+      "name": "Exception handling",
+      "path": ".claude/skills/exception-handling-rules/SKILL.md",
+      "kind": "rule"
+    },
+    {
+      "id": "iterative-execution-loop",
+      "name": "Iterative execution loop",
+      "path": "CLAUDE.md",
+      "kind": "rule"
+    },
+    {
+      "id": "node",
+      "name": "Node.js / Express",
+      "path": ".claude/skills/node-rules/SKILL.md",
+      "kind": "rule"
+    },
+    {
+      "id": "orchestration-protocol",
+      "name": "Orchestration & delegation",
+      "path": "CLAUDE.md",
+      "kind": "rule"
+    },
+    {
+      "id": "responsible-ai-guardrails",
+      "name": "Responsible-AI guardrails",
+      "path": "CLAUDE.md",
+      "kind": "rule"
+    },
+    {
+      "id": "secure-coding-guardrails",
+      "name": "Secure-coding guardrails",
+      "path": ".claude/skills/secure-coding-guardrails-rules/SKILL.md",
+      "kind": "rule"
+    },
+    {
+      "id": "structured-logging",
+      "name": "Structured logging",
+      "path": ".claude/skills/structured-logging-rules/SKILL.md",
+      "kind": "rule"
+    },
+    {
+      "id": "project-type-greenfield",
+      "name": "Project type: Greenfield",
+      "path": "CLAUDE.md",
+      "kind": "rule"
+    },
+    {
+      "id": "project-profile",
+      "name": "Project profile",
+      "path": "CLAUDE.md",
+      "kind": "rule"
+    }
+  ],
+  "instructions": [
+    {
+      "id": "CLAUDE.md",
+      "name": "CLAUDE.md",
+      "path": "CLAUDE.md",
+      "kind": "instruction"
+    }
+  ],
+  "agents": [
+    {
+      "id": "code-reviewer",
+      "name": "code-reviewer",
+      "path": ".claude/agents/code-reviewer.md",
+      "kind": "agent"
+    },
+    {
+      "id": "discovery",
+      "name": "discovery",
+      "path": ".claude/agents/discovery.md",
+      "kind": "agent"
+    },
+    {
+      "id": "orchestrator",
+      "name": "orchestrator",
+      "path": ".claude/agents/orchestrator.md",
+      "kind": "agent"
+    },
+    {
+      "id": "planner",
+      "name": "planner",
+      "path": ".claude/agents/planner.md",
+      "kind": "agent"
+    },
+    {
+      "id": "test-author",
+      "name": "test-author",
+      "path": ".claude/agents/test-author.md",
+      "kind": "agent"
+    },
+    {
+      "id": "validator",
+      "name": "validator",
+      "path": ".claude/agents/validator.md",
+      "kind": "agent"
+    }
+  ],
+  "commands": [
+    {
+      "id": "pr-generation",
+      "name": "pr-generation",
+      "path": ".claude/commands/pr-generation.md",
+      "kind": "command"
+    },
+    {
+      "id": "commit-message",
+      "name": "commit-message",
+      "path": ".claude/commands/commit-message.md",
+      "kind": "command"
+    },
+    {
+      "id": "continue",
+      "name": "continue",
+      "path": ".claude/commands/continue.md",
+      "kind": "command"
+    }
+  ],
+  "summary": {
+    "skills_count": 8,
+    "hooks_count": 6,
+    "rules_count": 11,
+    "instructions_count": 1,
+    "agents_count": 6,
+    "commands_count": 3,
+    "skill_ids": [
+      "brand-guidelines",
+      "code-reviewer",
+      "dependency-audit",
+      "documentation",
+      "performance-profiler",
+      "pr-governance-gate",
+      "spec-driven-builder",
+      "greenfield-starter"
+    ],
+    "hook_ids": [
+      "evoke-trace",
+      "evoke-trace-sh",
+      "kit-inventory",
+      "block-destructive-fs",
+      "block-destructive-sql",
+      "block-force-push"
+    ],
+    "rule_ids": [
+      "api-design",
+      "engineering-baseline",
+      "exception-handling",
+      "iterative-execution-loop",
+      "node",
+      "orchestration-protocol",
+      "responsible-ai-guardrails",
+      "secure-coding-guardrails",
+      "structured-logging",
+      "project-type-greenfield",
+      "project-profile"
+    ],
+    "instruction_ids": [
+      "CLAUDE.md"
+    ],
+    "agent_ids": [
+      "code-reviewer",
+      "discovery",
+      "orchestrator",
+      "planner",
+      "test-author",
+      "validator"
+    ],
+    "command_ids": [
+      "pr-generation",
+      "commit-message",
+      "continue"
+    ]
+  }
+}
