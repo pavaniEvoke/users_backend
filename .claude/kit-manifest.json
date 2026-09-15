@@ -1,0 +1,90 @@
+{
+  "manifestVersion": 1,
+  "generator": "evoke-sdlc-kit-builder",
+  "generatedAt": "2026-09-15T14:57:08.787Z",
+  "provider": "claude-code",
+  "technologies": [
+    "javascript",
+    "node-js"
+  ],
+  "agents": [
+    "code-reviewer",
+    "discovery",
+    "orchestrator",
+    "planner",
+    "test-author",
+    "validator"
+  ],
+  "rules": [
+    "api-design",
+    "engineering-baseline",
+    "exception-handling",
+    "iterative-execution-loop",
+    "node",
+    "orchestration-protocol",
+    "responsible-ai-guardrails",
+    "secure-coding-guardrails",
+    "structured-logging",
+    "project-type-greenfield",
+    "project-profile"
+  ],
+  "skills": [
+    {
+      "name": "brand-guidelines",
+      "version": "1.0.0"
+    },
+    {
+      "name": "code-reviewer",
+      "version": "1.0.0"
+    },
+    {
+      "name": "dependency-audit",
+      "version": "1.0.0"
+    },
+    {
+      "name": "documentation",
+      "version": "1.0.0"
+    },
+    {
+      "name": "performance-profiler",
+      "version": "1.0.0"
+    },
+    {
+      "name": "pr-governance-gate",
+      "version": "1.0.0"
+    },
+    {
+      "name": "spec-driven-builder",
+      "version": "1.0.0"
+    },
+    {
+      "name": "greenfield-starter",
+      "version": "1.0.0"
+    }
+  ],
+  "commands": [
+    "pr-generation",
+    "commit-message",
+    "continue"
+  ],
+  "hooks": [
+    "block-destructive-fs",
+    "block-destructive-sql",
+    "block-force-push"
+  ],
+  "observability": {
+    "logDir": ".agent/logs",
+    "inventory": ".agent/logs/kit-inventory.json",
+    "scripts": [
+      ".claude/hooks/evoke_trace.py",
+      ".claude/hooks/kit_inventory.py"
+    ]
+  },
+  "mcpServers": [],
+  "orgGuidelines": [
+    "test-accessibility-baseline",
+    "ai-usage-accountability",
+    "security-baseline",
+    "separation-of-duties"
+  ]
+}
