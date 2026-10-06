@@ -1,0 +1,6 @@
+# Audit JSONL is local/sensitive — keep inventory, ignore traces
+agent-audit-*.jsonl
+.python
+
+!kit-inventory.json
+!.gitignore

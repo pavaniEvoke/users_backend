@@ -1,0 +1,217 @@
+{
+  "manifestVersion": 2,
+  "generator": "evoke-sdlc-kit-builder",
+  "generatedAt": "2026-10-06T09:03:59.171Z",
+  "provider": "claude-code",
+  "technologies": [
+    "javascript",
+    "node-js",
+    "react"
+  ],
+  "agents": [
+    {
+      "assetId": "ff40bd43-6e07-427a-b6ff-f00112b039f3",
+      "slug": "code-reviewer",
+      "version": "1.0.1"
+    },
+    {
+      "assetId": "8f146fb1-f7e9-4519-b548-3466ce467452",
+      "slug": "discovery",
+      "version": "1.0.0"
+    },
+    {
+      "assetId": "99397986-6d77-4149-b308-7c697ba0d640",
+      "slug": "orchestrator",
+      "version": "1.0.0"
+    },
+    {
+      "assetId": "d5bf17e7-f3c7-40de-9172-88cf40a1a2d9",
+      "slug": "planner",
+      "version": "1.0.0"
+    },
+    {
+      "assetId": "daf879db-f2f6-4e0c-a348-675ab977831f",
+      "slug": "test-author",
+      "version": "1.0.0"
+    },
+    {
+      "assetId": "9554ca39-f762-4b28-9b6d-1327dcaedd23",
+      "slug": "validator",
+      "version": "1.0.0"
+    }
+  ],
+  "rules": [
+    {
+      "assetId": "619c7952-52c9-41ed-96a3-200ee52a1522",
+      "slug": "api-design-guidelines",
+      "version": "1.0.0"
+    },
+    {
+      "assetId": "537e71be-d372-4abf-8b95-5876844dc2ca",
+      "slug": "engineering-baseline",
+      "version": "1.0.0"
+    },
+    {
+      "assetId": "61351bd1-c8a2-43ed-8514-ad23327cb50c",
+      "slug": "exception-handling",
+      "version": "1.0.0"
+    },
+    {
+      "assetId": "ad11559a-ca07-4893-b3a5-863e0c9b7498",
+      "slug": "iterative-execution-loop",
+      "version": "1.0.0"
+    },
+    {
+      "assetId": "62728677-be9b-498e-815e-47fb2bfa091e",
+      "slug": "node-js-express",
+      "version": "1.0.0"
+    },
+    {
+      "assetId": "890603d9-2265-4d24-9109-0861664ab99b",
+      "slug": "orchestration-delegation",
+      "version": "1.0.0"
+    },
+    {
+      "assetId": "ab36eb10-fd53-4eaf-8ad4-f6f1c9bed455",
+      "slug": "react",
+      "version": "1.0.0"
+    },
+    {
+      "assetId": "dfa18aaf-dc0d-4405-a39a-8e5f0c968887",
+      "slug": "react-branding-design-system",
+      "version": "1.0.0"
+    },
+    {
+      "assetId": "77a8ef24-2852-4721-a0f5-8bbe5e3c36c5",
+      "slug": "responsible-ai-guardrails",
+      "version": "1.0.0"
+    },
+    {
+      "assetId": "949cbc2d-1b1a-4af1-b8a5-5ac798fc8938",
+      "slug": "secure-coding-guardrails",
+      "version": "1.0.0"
+    },
+    {
+      "assetId": "5e759a0e-9fbb-430d-aaec-7f4fece6dda0",
+      "slug": "structured-logging",
+      "version": "1.0.0"
+    },
+    {
+      "slug": "project-type-greenfield",
+      "version": "1.0.0"
+    },
+    {
+      "slug": "project-profile",
+      "version": "1.0.0"
+    }
+  ],
+  "skills": [
+    {
+      "assetId": "1a48a8ed-ff08-4e58-a27f-cd8ce4de4f07",
+      "slug": "brand-guidelines-skill",
+      "version": "1.0.3"
+    },
+    {
+      "assetId": "cc966b18-cb68-4507-bc06-01cfcdc5a223",
+      "slug": "code-coverage-skill-type-script",
+      "version": "1.0.0"
+    },
+    {
+      "assetId": "08ec43dd-a7e5-4c84-b1dd-adb3a995f935",
+      "slug": "code-reviewer-skill",
+      "version": "1.0.0"
+    },
+    {
+      "assetId": "32df698b-f513-4e99-add6-6417466c438d",
+      "slug": "component-library-skill",
+      "version": "1.0.0"
+    },
+    {
+      "assetId": "cf6f18d0-b801-4809-b4c7-d38d82dab271",
+      "slug": "dependency-audit-skill",
+      "version": "1.0.0"
+    },
+    {
+      "assetId": "bf68c7a1-153d-4497-8e93-bfd9243fbc66",
+      "slug": "documentation-skill",
+      "version": "1.0.0"
+    },
+    {
+      "assetId": "fc15b9b0-1bfb-4219-9c65-5c838685471e",
+      "slug": "frontend-design-skill",
+      "version": "1.0.0"
+    },
+    {
+      "assetId": "45a61d17-d8a9-408b-bd80-ffed2773e812",
+      "slug": "performance-profiler-skill",
+      "version": "1.0.0"
+    },
+    {
+      "assetId": "767c3e82-8fd2-42fe-ab72-0b8102b95a1e",
+      "slug": "pr-governance-gate-skill",
+      "version": "1.0.0"
+    },
+    {
+      "assetId": "c2b1ef8b-c91f-47c7-8785-4d6ff703b22f",
+      "slug": "spec-driven-builder-skill",
+      "version": "1.0.0"
+    },
+    {
+      "slug": "type:greenfield-starter",
+      "version": "1.0.0"
+    }
+  ],
+  "commands": [
+    "pr-generation",
+    "commit-message",
+    "continue"
+  ],
+  "hooks": [
+    {
+      "assetId": "3d00c80a-df11-4810-9c55-5e5e27ee54ff",
+      "slug": "block-destructive-folder-deletes",
+      "version": "1.0.0"
+    },
+    {
+      "assetId": "c5959220-dd12-4b82-8346-1bb5eec6eabb",
+      "slug": "block-dropping-truncating-tables",
+      "version": "1.0.0"
+    },
+    {
+      "assetId": "e1969ce9-9bcf-46e1-8d14-f5f054f3bfd4",
+      "slug": "block-force-push-to-shared-history",
+      "version": "1.0.0"
+    }
+  ],
+  "observability": {
+    "logDir": ".agent/logs",
+    "inventory": ".agent/logs/kit-inventory.json",
+    "scripts": [
+      ".claude/hooks/evoke_trace.py",
+      ".claude/hooks/kit_inventory.py"
+    ]
+  },
+  "mcpServers": [],
+  "orgGuidelines": [
+    {
+      "assetId": "3da046ef-9853-48e7-89f2-6d60fb1c923f",
+      "slug": "accessibility-baseline",
+      "version": "1.0.0"
+    },
+    {
+      "assetId": "7153eb66-bd07-49a0-8edb-d76ce0dd9454",
+      "slug": "ai-usage-accountability",
+      "version": "1.0.0"
+    },
+    {
+      "assetId": "91d6ced6-b1e5-471c-8cac-fdd8462025df",
+      "slug": "security-policy-baseline",
+      "version": "1.0.0"
+    },
+    {
+      "assetId": "4a51f9c5-f001-4743-815a-5203cc379780",
+      "slug": "separation-of-duties",
+      "version": "1.0.0"
+    }
+  ]
+}
